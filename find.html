@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-find.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <title>Document</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body class="bg">
+    <audio src="audio/true.mp3" id="audio-1"></audio>
+    <audio src="audio/false.mp3" id="audio-2"></audio>
+    <audio src="audio/bg.mp3" id="audio-3"></audio>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary" id="start">START</button>
+                <div class="row content mt-5">
+                    <div class="col inf-1 mt-3">
+                        <h2 class="score">Score : <div id="score" class="d-inline"></div></h2>
+                        <h2 class="miss">Miss  : <div id="miss" class="d-inline"></div></h2>
+                    </div>
+                    <div class="col">
+                        <div id="soal"></div>
+                    </div>
+                    <div class="col">
+                        <div id="time"></div>
+                    </div>
+                </div>
+                <div class="img"></div>
+                <div class="card">
+                    <div class="result text-light"></div>
+                    <div class="row">
+                        <div class="col text-center button" style="margin-top:10px;">
+                            <button id="reset" class="btn btn-primary text-center"  style="width: 150px; height: 80px;">Restart</button>
+                            <button id="home" class="btn btn-success text-center"  style="width: 150px; height: 80px;">Home</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<script src="js/main-find.js"></script>
+</body>
+</html>

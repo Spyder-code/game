@@ -1,0 +1,77 @@
+body, html {
+	height: 100%;
+  }
+  
+  .bg {
+	/* The image used */
+	background-image: url('../img/bg-1.jpg');
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  /* #phone{
+	  visibility: hidden;
+  } */
+
+  .tombol{
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+.complete{
+	font-size: 100pt;
+}
+
+@media only screen and (max-width: 600px) {
+	#phone{
+		position: absolute;
+		top: 10px;
+		visibility: visible;
+	}
+	.gambar{
+		position: absolute;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.tombol{
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 50px;
+		height: 50px;
+	}
+	.up{
+		margin-left: 120px;
+		margin-bottom: 40px;
+	}
+
+	#notif{
+		visibility: hidden;
+	}
+
+	#timess{
+		top: 20px;
+		left: 76px;
+		position: absolute;
+		font-size: 20pt;
+	}
+	.score{
+		top: 20px;
+		left: 94px;
+		position: absolute;
+		font-size: 20pt;
+	}
+	.complete{
+		font-size: 20pt;
+	}
+  }

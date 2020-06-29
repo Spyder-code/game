@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-hit.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body class="bg">
+    <audio src="audio/true.mp3" id="audio-1"></audio>
+    <audio src="audio/5.mp3" id="audio-5"></audio>
+    <audio src="audio/bg.mp3" id="audio-2"></audio>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm mt-5 mb-3 text-center text-dark">
+                <h1 id="subwrapper"></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm text-dark text-center">
+                <div id="time" class="mt-5 mb-5"></div>
+            </div>
+            <div class="col-sm text-dark">
+                <div id="score" class="mt-5 mb-5"></div>
+            </div>
+        </div>
+
+        <div class="row" id="stage-1" style="top: 70%;">
+            <div class="col mt-5">
+                <div id="image1"></div>
+            </div>
+            <div class="col mt-5">
+                <div id="image2"></div>
+            </div>
+            <div class="col mt-5">
+                <div id="image3"></div>
+            </div>
+            <div class="col mt-5">
+                <div id="image4"></div>
+            </div>
+            <div class="col mt-5">
+                <div id="image5"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center button" style="margin-top: 230px;">
+                <button id="start" class="btn btn-primary text-center" style="width: 150px; height: 80px;">Start</button>
+                <button id="reset" class="btn btn-primary text-center"  style="width: 150px; height: 80px;">Restart</button>
+                <button id="home" class="btn btn-success text-center"  style="width: 150px; height: 80px;">Home</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" id="phone" style="position: absolute;">
+                <h1 class="text-left text-primary">Press</h1>
+                <div class="row">
+                    <div class="col"><img class="tombol up" id="up" src="/img/up-b.png" alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img class="tombol" id="left" src="/img/left-b.png" alt=""></div>
+                    <div class="col"><img class="tombol" id="down" src="/img/down-b.png" alt=""></div>
+                    <div class="col"><img class="tombol" id="right" src="/img/right-b.png" alt=""></div>
+                </div>
+            </div>
+            <div class="col" id="notif">
+                <img class="float-right" style="width: 200px; height: 150px; margin-left:200px; margin-top:100px" src="/img/key.gif" alt="">
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+
+    <script src="js/main-hit.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

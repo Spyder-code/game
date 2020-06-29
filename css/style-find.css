@@ -1,0 +1,111 @@
+body, html {
+	height: 100%;
+}
+
+#start{
+        font-family: cursive;
+    margin-top: 340px;
+    width: 250px;
+    height: 90px;
+    border-radius: 60px;
+    font-size: 30pt;
+}
+
+.card{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width: 90%;
+    margin-left: 86px;
+}
+
+.hasil{
+    font-family: cursive;
+    font-size: 80pt;
+}
+.benar{
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 40pt;
+}
+.salah{
+    font-family: cursive;
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+.retry{
+    font-size: 30pt;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+.bg {
+	background-image: url('../img/safari.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.img{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.gambar{
+    width: 61px;
+    height: 61px;
+}
+@media only screen and (max-width: 600px) {
+    .gambar{
+        width: 30px;
+        height: 30px;
+    }
+    .soal{
+        width: 70px;
+        height: 100px;
+    }
+    .img{
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+        width: 360px;
+        height: 300px;
+    }
+    .score{
+        font-size: 15pt;
+    }
+    .miss{
+        font-size: 15pt;
+    }
+    .waktu{
+        font-size: 15pt;
+        margin-top: 20px;
+    }
+    .hasil{
+        font-family: cursive;
+        font-size: 30pt;
+    }
+    .salah{
+        font-family: cursive;
+        font-size: 20pt;
+        margin-bottom: 50px;
+    }
+    .card{
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        margin-left: 23px;
+    }
+    .benar{
+        margin-top: 40px;
+        font-family: cursive;
+        font-size: 20pt;
+    }
+}
