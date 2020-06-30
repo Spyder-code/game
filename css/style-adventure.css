@@ -59,7 +59,7 @@ body, html {
 
 @media only screen and (max-width: 600px) {
     .loose{
-        margin-top: 100px;
+        margin-top: 10px;
         font-family: cursive;
         font-size: 70pt;
     }
@@ -69,13 +69,6 @@ body, html {
         height: 60px;
     }
     #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-      }
-      #deadVideo {
         position: fixed;
         right: 0;
         bottom: 0;

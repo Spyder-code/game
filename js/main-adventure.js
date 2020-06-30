@@ -181,14 +181,15 @@ var game={
         $('#audio')[0].pause();
         $('.container').hide();
         $('.card').hide();
-        $('body').append('<video id="deadVideo"><source src="dead.mp4" type="video/mp4"></video>');
-        $('#deadVideo')[0].play();
+        $('.result').append('<img class="harta" src="img/adventure/tertawa.gif">');
+        $('body').append(' <audio src="audio/adventure/dead.mp3" id="audio-1"></audio>');
+        $('#audio-1')[0].play();
         setTimeout(function(){
             $('#deadVideo').hide();
             $('.result').append("<h1 class='text-center text-light loose'>You Loose</h1>");
             $('#reset').show();
             $('#home').show();
-        },7000);
+        },3000);
     },
 
     win:function(){
