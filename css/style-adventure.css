@@ -1,0 +1,134 @@
+.pintu{
+    margin-top: 30px;
+}
+
+body, html {
+	height: 100%;
+}
+#start{
+    margin-top: 50px;
+    width: 160px;
+    height: 60px;
+}
+.soal-bg{
+    margin-top: 100px;
+    /* margin-right: 140px;
+    margin-left: 140px; */
+    background-color: darkslategray;
+}
+.soal{
+    font-size: 60pt;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  #deadVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.loose{
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 70pt;
+}
+.restart{
+    margin-top: 50px;
+    border-radius: 0;
+    width: 160px;
+    height: 60px;
+}
+
+.win{
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: 70pt;
+}
+
+.card{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .loose{
+        margin-top: 100px;
+        font-family: cursive;
+        font-size: 70pt;
+    }
+    .restart{
+        border-radius: 0;
+        width: 160px;
+        height: 60px;
+    }
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      #deadVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+
+    .win{
+        margin-top: 50px;
+        font-family: cursive;
+        font-size: 50pt;
+    }
+    .soal-bg{
+        margin-top: 50px;
+        /* margin-right: 140px;
+        margin-left: 140px; */
+        background-color: darkslategray;
+    }
+    .soal{
+        font-size: 30pt;
+    }
+    .bg-info{
+        visibility: hidden;
+    }
+    
+    .gambar{
+        width: 70px;
+        height: 100px;
+    }
+
+    .kunci{
+        height: 50px;
+        width: 60px;
+    }
+
+    .card{
+        position: absolute;
+        top: 350px;
+        visibility: visible;
+        height: 100px;
+    }
+
+    .harta{
+        margin-top: 50px;
+        font-size: 20pt;
+        height: 150px;
+        width: 160px;
+    }
+
+    .container{
+        height: 100px;
+    }
+    .body{
+        height: 300px;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Gold</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-adventure.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body class="bg bg-dark">
+    <div class="row info text-light text-center mt-5">
+        <div class="col">
+            <h1 class="con">Cara main!</h1>
+                <p>Temukan harta karun yang tersimpan dalam ruangan</p>
+                <p>Ingat semua petunjuk yang ada</p>
+        </div>
+    </div>
+    <div class="result text-center">
+        <button class="btn btn-primary" id="start">Start</button>
+    </div>
+    <div class="container">
+        <div class="row text-center text-light">
+            <div class="col col-10 soal-bg">
+                <h1 class="soal">B+1</h1>
+            </div>
+            <div class="col col-2 soal-bg bg-info">
+                <h4>Inventory</h4>
+                <div class="key">0</div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col pintu" id="a">
+
+            </div>
+            <div class="col pintu" id="b">
+
+            </div>
+            <div class="col pintu" id="c">
+
+            </div>
+        </div>
+    </div>
+    <div class="card fixed-bottom text-center">
+        <h4 class="inv">Inventory</h4>
+        <div class="key">0</div>
+    </div>
+
+    <div class="row">
+        <div class="col text-center">
+            <button id="reset" class="btn btn-primary text-center"  style="width: 150px; height: 80px;">Restart</button>
+    <button id="home" class="btn btn-success text-center"  style="width: 150px; height: 80px;">Home</button>
+        </div>
+    </div>
+
+
+    <script src="js/main-adventure.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
