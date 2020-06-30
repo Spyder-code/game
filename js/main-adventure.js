@@ -208,8 +208,10 @@ var game={
         $('#myVideo')[0].play();
         setTimeout(function(){
             $('#myVideo').hide();
-            game.dead();
-        },5000);
+            $('.result').append("<h1 class='text-center text-light loose'>You Loose</h1>");
+            $('#reset').show();
+            $('#home').show();
+        },7000);
     }
 }
 
