@@ -65,8 +65,8 @@ body, html {
 }
 @media only screen and (max-width: 600px) {
     .gambar{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     .soal{
         width: 70px;
@@ -76,8 +76,8 @@ body, html {
         background-color: #FBAB7E;
         background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 
-        width: 360px;
-        height: 300px;
+        width: 330px;
+        height: 370px;
     }
     .score{
         font-size: 15pt;

@@ -39,11 +39,18 @@ $('#reset').on('click',function(){
   },
 
     loadQuestion:function(){
+      if (window.matchMedia('(max-width: 600px)').matches) {
+        var jumlahImg = 90;
+        var t = 80;
+      } else {
+        var jumlahImg = 110;
+        var t = 100;
+      }
       $('.gambar').css('background-color','');
       game.no++;
       game.currentQuestion = Math.floor(Math.random()*17);
-      var a = Math.floor(Math.random()*100+1);
-      for(var i=0;i<110;i++){ 
+      var a = Math.floor(Math.random()*t+1);
+      for(var i=0;i<jumlahImg;i++){ 
         game.image = Math.floor(Math.random()*17);
         if(game.currentQuestion==game.image){
           game.image = Math.floor(Math.random()*17);

@@ -205,14 +205,15 @@ var game={
         $('#audio')[0].pause();
         $('.container').hide();
         $('.card').hide();
-        $('body').append('<video id="myVideo"><source src="ghost.mp4" type="video/mp4"></video>');
-        $('#myVideo')[0].play();
+        $('body').append(' <audio src="audio/ghost.mp3" id="audio-ghost"></audio>');
+        $('body').append('<img id="myVideo" src="img/ghost.gif">');
+        $('#audio-ghost')[0].play();
         setTimeout(function(){
             $('#myVideo').hide();
             $('.result').append("<h1 class='text-center text-light loose'>You Loose</h1>");
             $('#reset').show();
             $('#home').show();
-        },7000);
+        },4000);
     }
 }
 

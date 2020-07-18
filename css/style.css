@@ -12,7 +12,25 @@
     width: 330px;
     height: 130px;
 }
+
+.img{
+    width: 300px;
+}
+.card{
+    height: 200px;
+}
+
+.container{
+    margin-top: 50px;
+}
 @media only screen and (max-width: 600px) {
+    .card{
+        width: 150px;
+        margin-top: 30px;
+    }
+    .container{
+        margin-top: 0;
+    }
     .play{
         margin-left: 65px;
         margin-top: 165px;
