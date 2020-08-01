@@ -1,0 +1,125 @@
+body, html {
+	height: 100%;
+}
+
+#start{
+        font-family: cursive;
+    margin-top: 40px;
+    width: 250px;
+    height: 90px;
+    border-radius: 60px;
+    font-size: 30pt;
+}
+
+.tips{
+    margin-top: 170px;
+}
+.card{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width: 90%;
+    margin-left: 86px;
+}
+
+.hasil{
+    font-family: cursive;
+    font-size: 80pt;
+}
+.benar{
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 40pt;
+}
+.salah{
+    font-family: cursive;
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+.retry{
+    font-size: 30pt;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+.area{
+    height: 430px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+
+.bg {
+	background-image: url('../img/Maldives.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.img{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .soal{
+        width: 70px;
+        height: 100px;
+    }
+    .img{
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+        width: 330px;
+        height: 370px;
+    }
+    .score{
+        font-size: 15pt;
+    }
+    .miss{
+        font-size: 15pt;
+    }
+    .waktu{
+        font-size: 15pt;
+        margin-top: 10px;
+    }
+    .hasil{
+        font-family: cursive;
+        font-size: 30pt;
+    }
+    .salah{
+        font-family: cursive;
+        font-size: 20pt;
+        margin-bottom: 50px;
+    }
+    .card{
+        height: 300px;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        margin-left: 23px;
+    }
+    .benar{
+        margin-top: 40px;
+        font-family: cursive;
+        font-size: 20pt;
+    }
+    .item{
+        width: 80px;
+        height: 80px;
+    }
+    .area{
+        max-height: 400px;
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+    .tips{
+        margin-top: 100px;
+    }
+}

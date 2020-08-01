@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-catch.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <title>Catch Me</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body class="bg">
+    <div id="sound"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="tips">
+                    <h1>Cara main!</h1>
+                    <h3>Click => <img src="img/serigala.png"></h3>
+                </div>
+                <button class="btn btn-primary" id="start">START</button>
+                <div class="row content mt-5">
+                    <div class="col inf-1 mt-3">
+                        <h2 class="score">Score : <div id="score" class="d-inline">0</div></h2>
+                    </div>
+                    <div class="col">
+                        <div id="soal"></div>
+                    </div>
+                    <div class="col">
+                        <div id="time"></div>
+                    </div>
+                </div>
+                <div class="area">
+                    <div id="item"></div>
+                </div>
+                <div class="card">
+                    <div class="result text-light"></div>
+                    <div class="row">
+                        <div class="col text-center button" style="margin-top:10px;">
+                            <button id="reset" class="btn btn-primary text-center"  style="width: 150px; height: 80px;">Restart</button>
+                            <button id="home" class="btn btn-success text-center"  style="width: 150px; height: 80px;">Home</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<script src="js/main-catch.js"></script>
+</body>
+</html>
